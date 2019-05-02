@@ -1,0 +1,6 @@
+redis<=2.10.6
+aiohttp
+schedule
+pyquery
+requests
+flask
