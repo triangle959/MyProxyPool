@@ -58,6 +58,6 @@ def clear_proxies(score):
     return jsonify({"Clear": "Score should >= 0 and <= 10"})
 
 if __name__ == "__main__":
-    run_schedule()
+    # run_schedule()
     # 启动服务端 Flask app
     myapp.run(host=SERVER_HOST, port=SERVER_PORT, debug=SERVER_ACCESS_LOG)
